@@ -32,7 +32,20 @@
       <recent name="D:\projectdirectory\IntelliJ_IDEA_Project\GRPCClient\src\main\proto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.shishkin.grpc.client.App" />
+      <module name="grpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.shishkin.grpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Client" />
       <module name="GRPCClient" />
@@ -46,8 +59,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.shishkin.grpc.client.TestClient" />
+      <module name="grpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.shishkin.grpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
