@@ -1,9 +1,9 @@
 package ru.shishkin.grpc.client;
 
-import com.example.grpc.GreetingServiceGrpc;
-import com.example.grpc.GreetingServiceOuterClass;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import ru.shishkin.grpc.generetedsources.GreetingServiceGrpc;
+import ru.shishkin.grpc.generetedsources.GreetingServiceOuterClass;
 
 public class TestClient {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class TestClient {
                 GreetingServiceGrpc.newBlockingStub(channel);
 
         GreetingServiceOuterClass.HelloRequest request = GreetingServiceOuterClass.HelloRequest
-                .newBuilder().setName("Max").build();
+                .newBuilder().setName("MaximS").build();
         
         GreetingServiceOuterClass.HelloResponse response = stub.greeting(request);
 
