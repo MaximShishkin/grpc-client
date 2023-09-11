@@ -10,12 +10,11 @@ public class TestClient {
         ManagedChannel channel = ManagedChannelBuilder.forTarget("localhost:8080")
                 .usePlaintext().build();
 
-        GreetingServiceGrpc.GreetingServiceBlockingStub stub =
-                GreetingServiceGrpc.newBlockingStub(channel);
+        GreetingServiceGrpc.GreetingServiceBlockingStub stub = GreetingServiceGrpc.newBlockingStub(channel);
 
         GreetingServiceOuterClass.HelloRequest request = GreetingServiceOuterClass.HelloRequest
                 .newBuilder().setName("MaximS").build();
-        
+
         GreetingServiceOuterClass.HelloResponse response = stub.greeting(request);
 
         System.out.println(response);
