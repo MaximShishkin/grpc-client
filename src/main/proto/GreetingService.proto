@@ -1,9 +1,8 @@
 syntax = "proto3";
-package com.example.grpc;
+package ru.shishkin.grpc;
 
 message HelloRequest {
     string name = 1;
-    repeated string hobbies = 2;
 }
 
 message HelloResponse {
